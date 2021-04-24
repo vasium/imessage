@@ -25,7 +25,8 @@ function App() {
         dispatch(logout());
       }
     });
-  });
+    // eslint-disable-next-line
+  }, []);
   // return (
   //   <div className="app">
   //     <Imessage />
