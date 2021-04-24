@@ -2,13 +2,12 @@ import firebase from "firebase";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyD2FC2RQzeDi-S-zEjj_YHk6gNzXEOatFs",
-  authDomain: "myimessageapp-6a009.firebaseapp.com",
-  projectId: "myimessageapp-6a009",
-  storageBucket: "myimessageapp-6a009.appspot.com",
-  messagingSenderId: "1053924437673",
-  appId: "1:1053924437673:web:4d118da4bedee6423003b8",
-  measurementId: "G-ZY9WD0XYRC",
+  apiKey: "AIzaSyD7CmkfnQpsVdpQS1pCEqfv4RXdjbcydSI",
+  authDomain: "myimessageapp.firebaseapp.com",
+  projectId: "myimessageapp",
+  storageBucket: "myimessageapp.appspot.com",
+  messagingSenderId: "419904199531",
+  appId: "1:419904199531:web:62a1bea7b48d3c1bf98a2e",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
